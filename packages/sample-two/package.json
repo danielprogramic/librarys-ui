@@ -1,8 +1,5 @@
 {
   "name": "@danielprogrammic/sample-two",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielprogramic/librarys-ui.git",
@@ -16,5 +13,5 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "version": "1.0.0-pre-release-daniel.2",
-  "gitHead": "97c57ba506268f65c5b74883f3a0676f7eca820a"
+  "gitHead": "412173eb790fabb384d356cbafc6d162757c10fa"
 }
