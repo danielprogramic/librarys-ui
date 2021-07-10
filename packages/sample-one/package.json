@@ -1,7 +1,7 @@
 {
   "name": "@danielprogrammic/sample-one",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@OWNER"
+    "registry": "https://npm.pkg.github.com/@danielprogrammic"
   },
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,5 +11,5 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "version": "1.2.0-pre-release-daniel.2",
-  "gitHead": "3f988f5c76cd4c565061ed3bca25403753670999"
+  "gitHead": "3353f148f8179ab7654098d37df81b86cbbd5fc3"
 }
