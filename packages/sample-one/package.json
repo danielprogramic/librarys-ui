@@ -1,0 +1,16 @@
+{
+  "name": "@danielprogrammic/sample-one",
+  "version": "1.0.0-pre-release-daniel.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielprogramic/lerna-rollup-github-package-example",
+    "directory": "packages/sample-one"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
+    "build:typings": "ttsc -p ./tsconfig.json --declarationDir dist"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js"
+}

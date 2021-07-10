@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          # pulls all commits (needed for lerna to correctly version)
+          # see https://stackoverflow.com/a/60184319/9285308 & https://github.com/actions/checkout
+          fetch-depth: "0"
+      - name: Add GiHub Package Token
+        run : echo "//npm.pkg.github.com/:_authToken=${{ secrets.PACKAGE_TOKEN }}" > ~/.npmrc
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.0
+      - name: Install Dependencies
+        run: npm install
+      - name: build
+        run: npm run build
+      - name: Check Lint
+        run: npm run lint
+      - name: Deploy new Package
+        run: npm run semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+          NPM_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+          SEMANTIC_RELEASE_PACKAGE: ${{ secrets.PACKAGE_TOKEN }}
