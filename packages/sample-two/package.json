@@ -1,10 +1,6 @@
 {
   "name": "@danielprogrammic/sample-two",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danielprogramic/librarys-ui.git",
-    "directory": "packages/sample-two"
-  },
+
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },

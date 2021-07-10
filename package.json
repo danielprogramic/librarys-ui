@@ -1,9 +1,8 @@
 {
   "name": "librarys-ui",
   "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danielprogramic/librarys-ui.git"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@babel/cli": "7.10.5",

@@ -1,10 +1,5 @@
 {
   "name": "@danielprogrammic/sample-one",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danielprogramic/librarys-ui.git",
-    "directory": "packages/sample-one"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -16,5 +11,5 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "version": "1.2.0-pre-release-daniel.2",
-  "gitHead": "653e2e843e7252c06966614d62b356ccacc184a9"
+  "gitHead": "e254d776c9a5e59f47dd8d9ee7e479ed14fbe377"
 }
