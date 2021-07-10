@@ -1,5 +1,8 @@
 {
   "name": "@danielprogrammic/sample-one",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/danielprogramic/librarys-ui",
