@@ -1,2 +1,2 @@
 export * from '@/sample-one/main';
-console.log('deeddeasde');
+console.log('deeddeasde dedededed');
