@@ -1,5 +1,5 @@
 {
-  "name": "@danielprogrammic/librarys-ui",
+  "name": "librarys-ui",
   "version": "0.0.1",
   "publishConfig": {
     "access": "public"

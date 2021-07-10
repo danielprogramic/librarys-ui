@@ -11,5 +11,5 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "version": "1.2.0-pre-release-daniel.1",
-  "gitHead": "412173eb790fabb384d356cbafc6d162757c10fa"
+  "gitHead": "c7cd311ed812ae43ce8aa809c984b7a107522141"
 }
