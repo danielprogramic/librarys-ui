@@ -10,6 +10,7 @@
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "version": "1.0.0-pre-release-daniel.2",
-  "gitHead": "f7f699ff00566bd13f932a4d54dc0c59ea086c5e"
+  "version": "1.0.0-pre-release-daniel.3",
+  "gitHead": "9c2f0166ff014daefbc6560b9d402aa9d4094548"
+
 }
