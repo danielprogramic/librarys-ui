@@ -2,7 +2,7 @@
   "name": "@danielprogrammic/sample-two",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:danielprogrammic/librarys-ui.git",
+    "url": "https://github.com/danielprogramic/librarys-ui.git",
     "directory": "packages/sample-two"
   },
   "publishConfig": {
