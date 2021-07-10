@@ -1,9 +1,8 @@
 {
   "name": "@danielprogrammic/sample-one",
-  "version": "1.0.0-pre-release-daniel.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielprogramic/lerna-rollup-github-package-example",
+    "url": "https://github.com/danielprogramic/librarys-ui",
     "directory": "packages/sample-one"
   },
   "types": "dist/index.d.ts",
