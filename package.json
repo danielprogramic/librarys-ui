@@ -2,7 +2,7 @@
   "name": "librarys-ui",
   "version": "0.0.1",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@danielprogrammic"
+    "registry":"https://npm.pkg.github.com/@OWNER"
   },
   "devDependencies": {
     "@babel/cli": "7.10.5",
