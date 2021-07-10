@@ -11,5 +11,6 @@
     "build:typings": "cross-env ttsc -p ./tsconfig.json --declarationDir dist"
   },
   "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js"
+  "module": "dist/esm/index.js",
+  "version": "1.0.0"
 }
