@@ -2,7 +2,7 @@
   "name": "@danielprogrammic/sample-two",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:danielprogramic/librarys-ui.git",
+    "url": "ssh://git@github.com:danielprogrammic/librarys-ui.git",
     "directory": "packages/sample-two"
   },
   "publishConfig": {
@@ -16,5 +16,5 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "version": "1.0.0-pre-release-daniel.2",
-  "gitHead": "54cae2eb991acc9e804b1a64cb2289989170e3fb"
+  "gitHead": "9c2f0166ff014daefbc6560b9d402aa9d4094548"
 }
