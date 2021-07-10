@@ -38,3 +38,4 @@ The package name should follow the format:
 
 # lerna-rollup-github-package-example
 # librarys-ui
+# librarys-ui
