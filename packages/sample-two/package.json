@@ -1,9 +1,7 @@
 {
   "name": "@danielprogrammic/sample-two",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danielprogramic/librarys-ui.git",
-    "directory": "packages/sample-two"
+  "publishConfig": {
+    "access": "public"
   },
   "types": "dist/index.d.ts",
   "scripts": {
