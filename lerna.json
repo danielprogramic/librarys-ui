@@ -1,10 +1,5 @@
 {
   "npmClient": "npm",
   "packages": ["packages/*"],
-  "version": "0.0.1",
-  "command": {
-    "publish": {
-      "registry": "https://npm.pkg.github.com/danielprogrammic"
-    }
-  }
+  "version": "0.0.1"
 }
