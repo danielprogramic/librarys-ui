@@ -1,7 +1,7 @@
 {
-  "name": "sample-two",
+  "name": "@danielprogrammic/sample-two",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@danielprogrammic/"
+    "access": "public"
   },
   "types": "dist/index.d.ts",
   "scripts": {
