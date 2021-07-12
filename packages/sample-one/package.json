@@ -1,8 +1,5 @@
 {
   "name": "@danielprogrammic/sample-one",
-  "publishConfig": {
-    "access": "public"
-  },
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
@@ -10,5 +7,10 @@
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "version": "1.0.0-pre-release-daniel.1"
+  "version": "1.0.0-pre-release-daniel.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielprogramic/librarys-ui",
+    "directory": "packages/sample-one"
+  }
 }
