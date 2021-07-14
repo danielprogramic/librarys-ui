@@ -23,9 +23,6 @@ jobs:
         run: npm run build
       - name: Check Lint
         run: npm run lint
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org
       - name: Deploy new Package
         run: npm run semantic-release
         env:
