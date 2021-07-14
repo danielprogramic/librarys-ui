@@ -9,6 +9,7 @@
     { "name": "alpha", "prerelease": true },
     { "name": "pre-release-*", "prerelease": true }
   ],
+  "repositoryUrl": "https://github.com/danielprogramic/librarys-ui",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",
