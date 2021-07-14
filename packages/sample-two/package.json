@@ -1,5 +1,5 @@
 {
-  "name": "@danielprogramic/sample-two",
+  "name": "@danielprogrammic/sample-two",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
