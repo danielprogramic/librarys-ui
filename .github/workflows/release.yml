@@ -21,6 +21,10 @@ jobs:
         run: npm install
       - name: build
         run: npm run build
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
       - name: Check Lint
         run: npm run lint
       - name: Deploy new Package
