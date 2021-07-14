@@ -7,7 +7,7 @@
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "version": "1.0.0-pre-release-daniel.3",
+  "version": "1.0.0-pre-release-daniel2.1",
   "gitHead": "9c2f0166ff014daefbc6560b9d402aa9d4094548",
   "repository": {
     "type": "git",
